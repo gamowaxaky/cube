@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    qDebug()<<"a";
+    qDebug()<<"Hello world";
     ui->setupUi(this);
 }
 
